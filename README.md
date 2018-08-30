@@ -2,7 +2,7 @@
 
 YelpCamp is a web application that allows users to create and find campgrounds.
 
-YelpCamp is a Node.js web application that I built as a project from the Udemy course - [The Web Developer Bootcamp by Colt Steele](https://www.udemy.com/the-web-developer-bootcamp/).
+It is a Node.js web application that I built as a project from the Udemy course - [The Web Developer Bootcamp by Colt Steele](https://www.udemy.com/the-web-developer-bootcamp/).
 
 ## Features
 
