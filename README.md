@@ -2,8 +2,10 @@
 
 ### Front-end
 
-* HTML/CSS
-* [Bootstrap](https://getbootstrap.com/docs/3.3/)
+* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* [Bootstrap](http://getbootstrap.com/)
 * [ejs](http://ejs.co/)
 * [Google Maps APIs](https://developers.google.com/maps/)
 
