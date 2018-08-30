@@ -1,0 +1,18 @@
+<% include ../partials/header %>
+
+<div class="container">
+    <h1 style="text-align: center;">Edit comment</h1>
+    <div class="row">
+        <div class="yelp-form">
+            <form action="/campgrounds/<%= campground_id %>/comments/<%= comment._id %>?_method=PUT" method="POST" style="margin: 30px auto;">
+                <div class="form-group">
+                    <textarea class="form-control" name="comment[text]" rows="3"><%= comment.text %></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Submit</button>
+            </form>
+            <a href="/campgrounds/<%= campground_id %>">Go back</a>
+        </div>
+    </div>
+</div>
+
+<% include ../partials/footer %>

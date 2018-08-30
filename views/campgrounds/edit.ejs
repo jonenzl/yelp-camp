@@ -1,0 +1,35 @@
+<% include ../partials/header %>
+
+<div class="container">
+    <h1 style="text-align: center;">Edit <%= campground.name %></h1>
+    <div class="row">
+        <div class="yelp-form">
+            <form action="/campgrounds/<%= campground._id %>?_method=PUT" method="POST" style="margin: 30px auto;">
+                <div class="form-group">
+                    <label for="name">Campground Name</label>
+                    <input type="text" class="form-control" name="campground[name]" id="name" value="<%= campground.name %>">
+                </div>
+                <div class="form-group">
+                    <label for="description">Description</label>
+                    <textarea class="form-control" name="campground[description]" id="description" rows="3"><%= campground.description %></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="location">Location</label>
+                    <input type="text" class="form-control" name="location" id="location" value="<%= campground.location %>">
+                </div>
+                <div class="form-group">
+                    <label for="price">Price per night</label>
+                    <input type="number" class="form-control" name="campground[price]" id="price" value="<%= campground.price %>" min="0.00" step="0.01">
+                </div>
+                <div class="form-group">
+                    <label for="image">Image URL</label>
+                    <input type="text" class="form-control" name="campground[image]" id="image" value="<%= campground.image %>">
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Submit</button>
+            </form>
+            <a href="/campgrounds/<%= campground._id %>">Go back</a>
+        </div>
+    </div>
+</div>
+
+<% include ../partials/footer %>
