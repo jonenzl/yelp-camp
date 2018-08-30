@@ -15,12 +15,12 @@
 * [mongoDB](https://www.mongodb.com/)
 * [mongoose](http://mongoosejs.com/)
 * [passport](http://www.passportjs.org/)
-* [passport-local](https://github.com/jaredhanson/passport-local#passport-local)
-* [express-session](https://github.com/expressjs/session#express-session)
-* [method-override](https://github.com/expressjs/method-override#method-override)
+* [passport-local](https://github.com/jaredhanson/passport-local)
+* [express-session](https://github.com/expressjs/session)
+* [method-override](https://github.com/expressjs/method-override)
 * [moment](https://momentjs.com/)
-* [geocoder](https://github.com/wyattdanger/geocoder#geocoder)
-* [connect-flash](https://github.com/jaredhanson/connect-flash#connect-flash)
+* [geocoder](https://github.com/wyattdanger/geocoder)
+* [connect-flash](https://github.com/jaredhanson/connect-flash)
 
 ### Platforms
 
