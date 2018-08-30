@@ -1,3 +1,35 @@
+# YelpCamp
+
+> YelpCamp is a Node.js web application that I built as a project from the Udemy course - [The Web Developer Bootcamp by Colt Steele](https://www.udemy.com/the-web-developer-bootcamp/).
+
+## Features
+
+* Authentication:
+  
+  * User login with username and password
+
+* Authorization:
+
+  * Users can only create campground posts and comments if they are logged in
+
+  * Users can only edit or delete posts and comments that they created
+
+  * An admin can manage all posts and comments
+
+* Manage campground posts with basic functionalities:
+
+  * Create, edit, and delete posts and comments
+
+  * Upload a campground photo
+
+  * Display campground location on Google Maps
+  
+  * Search existing campgrounds
+
+* Flash messages responding to users' interaction within the app
+
+* Responsive web design
+
 ## Built with
 
 ### Front-end
