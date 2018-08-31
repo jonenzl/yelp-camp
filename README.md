@@ -6,6 +6,10 @@ It is a Node.js web application that I built as a project from the Udemy course 
 
 ## Features
 
+To see a live demo of the app, visit [https://yelpcamp-jonenzl.herokuapp.com/](https://yelpcamp-jonenzl.herokuapp.com/).
+
+## Features
+
 * Authentication:
   
   * User login with username and password
