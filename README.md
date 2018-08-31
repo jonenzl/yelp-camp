@@ -30,7 +30,7 @@ To see a live demo of the app, visit [https://yelpcamp-jonenzl.herokuapp.com/](h
 
   * Display campground location on Google Maps
   
-  * Search existing campgrounds
+* Search existing campgrounds
 
 * Flash messages responding to users' interaction within the app
 
