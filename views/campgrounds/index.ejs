@@ -12,9 +12,9 @@
         <% campgrounds.forEach(function(campground) { %>
             <div class="col-md-4 col-sm-6">
                 <div class="card" style="margin-bottom: 15px;">
-                    <img class="card-img-top" src="<%= campground.image %>" alt="Campground image">
+                    <a href="/campgrounds/<%= campground._id %>"><img class="card-img-top" src="<%= campground.image %>" alt="Campground image"></a>
                     <div class="card-body">
-                        <h4 class="card-title"><%= campground.name %></h4>
+                        <h4 class="card-title campground-index-title"><a href="/campgrounds/<%= campground._id %>"><%= campground.name %></a></h4>
                         <a href="/campgrounds/<%= campground._id %>" class="btn btn-primary">More info</a>
                     </div>
                 </div>

@@ -1,3 +1,15 @@
+.campground-index-title a {
+  color: #212529;
+}
+
+.campground-index-title a:hover {
+  color: #0056b3;
+}
+
+.campground-name {
+  color: #007bff;
+}
+
 .delete-form {
     display: inline;
 }
