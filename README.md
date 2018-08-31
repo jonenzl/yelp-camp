@@ -59,6 +59,9 @@ It is a Node.js web application that I built as a project from the Udemy course 
 ### Platforms
 
 * [Cloud9](https://aws.amazon.com/cloud9/?origin=c9io)
+* [Heroku](https://www.heroku.com)
+* [mLab](https://mlab.com/)
+
 ## License
 
 #### [MIT](./LICENSE)
