@@ -20,8 +20,6 @@ var indexRoutes         = require("./routes/index"),
 
 mongoose.connect(process.env.DATABASEURL, { useNewUrlParser: true });
 
-// test line
-
 app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
 app.use(express.static(__dirname + "/public"));
